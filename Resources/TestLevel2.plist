@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   TestLevel2.plist
+   Sectors
+
+   Created by Max Williams on 28/10/2009.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+		<dict>
+    		<key>Type</key>
+			<string>Start</string>
+			<key>Position</key>
+			<string>30 0 33</string>
+			<key>Heading</key>
+			<real>-1.5</real>
+			<key>Pitch</key>
+			<real>0</real>
+    	</dict>
+    	<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				0 15
+				35 15
+				35 24
+				34 24 inset
+				27 24 inset
+				26 24
+				26 26
+				35 26
+				35 35
+				0 35
+			</string>
+			<key>Ceiling Height</key>
+			<real>9</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>Walls Color</key>
+			<string>0.4 0.2 0.3</string>
+			
+		</dict>
+    	<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				34 24
+				27 24
+				27 25
+				34 25
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>1</real>
+			<key>Walls Color</key>
+			<string>0.4 0.2 0.3</string>
+		</dict>
+    	<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				27 25
+				34 25
+				34 26
+				27 26
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>1</real>
+			<key>World</key>
+			<integer>2</integer>
+			<!-- <key>Floor Color</key>
+			<string>0.7 0.7 0.7</string>
+			<key>Ceiling Color</key>
+			<string>1 1 1</string>
+			<key>Walls Color</key>
+			<string>0.3 0.4 0.4</string> -->
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				27 26
+				34 26
+				35 26
+				35 38
+				40 38
+				40 75
+				22 75
+				22 26
+			</string>
+			<key>Ceiling Height</key>
+			<real>9</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>World</key>
+			<integer>2</integer>
+			<key>Floor Color</key>
+			<string>0.7 0.7 0.7</string>
+			<key>Ceiling Color</key>
+			<string>1 1 1</string>
+			<key>Walls Color</key>
+			<string>0.3 0.4 0.4</string>
+		</dict>
+		
+		
+    </array>
+</plist>

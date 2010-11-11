@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   TestLevel3.plist
+   Sectors
+
+   Created by Max Williams on 29/10/2009.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+    	<dict>
+    		<key>Type</key>
+			<string>Start</string>
+			<key>Position</key>
+			<string>63 0 117</string>
+			<key>Heading</key>
+			<real>-1.45</real>
+			<key>Pitch</key>
+			<real>0.2</real>	
+    	</dict>
+
+		<!-- starting cell -->
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				58 120
+				66 120
+				66 124
+				58 124
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				58 110
+				66 110
+				66 111
+				66 115
+				66 120
+				58 120
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sticker</string>
+			<key>Message</key>
+			<string>Please remain in your room.</string>
+			<key>Font</key>
+			<string>HelveticaNeue-Light</string>
+			<key>Position</key>
+			<string>65.5 0 113</string>
+			<!-- <key>Wall Sticker</key>
+			<true/> -->
+			<key>Angle</key>
+			<real>90</real>
+			<key>Color</key>
+			<string>1 0 0</string>
+			<key>Draw Size</key>
+			<string>1 1</string>
+			<key>Texture Dimensions</key>
+			<string>512 512</string>
+			<key>Font Size</key>
+			<real>60</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sticker</string>
+			<key>Message</key>
+			<string>
+ Ｗ⃣  Ａ⃣  Ｓ⃣  Ｄ⃣ : Movement
+ Ｃ⃣ : Crouch         ⃣  : Jump</string>
+			<key>Font</key>
+			<string>HelveticaNeue-Light</string>
+			<key>Position</key>
+			<string>58 4.4 115</string>
+			<key>Wall Sticker</key>
+			<true/>
+			<key>Alignment</key>
+			<string>Left</string>
+			<key>Angle</key>
+			<real>270</real>
+			<key>Color</key>
+			<string>1 0 0</string>
+			<key>Draw Size</key>
+			<string>2 1</string>
+			<key>Texture Dimensions</key>
+			<string>1024 512</string>
+			<key>Font Size</key>
+			<real>60</real>
+		</dict>
+		
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				66 111
+				66 115
+				67 115
+				67 111
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<!-- corridor -->
+		<dict>
+			<key>Type</key>
+			<string>Sticker</string>
+			<key>Message</key>
+			<string>1⃣ </string>
+			<key>Font</key>
+			<string>HelveticaNeue-Italic</string>
+			<key>Position</key>
+			<string>67 3.4 116</string>
+			<key>Wall Sticker</key>
+			<true/>
+			<key>Angle</key>
+			<real>270</real>
+			<key>Color</key>
+			<string>0.3 1 1</string>
+			<key>Draw Size</key>
+			<string>1 1</string>
+			<key>Texture Dimensions</key>
+			<string>512 512</string>
+			<key>Font Size</key>
+			<real>200</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sticker</string>
+			<key>Message</key>
+			<string>2⃣ </string>
+			<key>Font</key>
+			<string>HelveticaNeue-Italic</string>
+			<key>Position</key>
+			<string>70 3.4 110</string>
+			<key>Wall Sticker</key>
+			<true/>
+			<key>Angle</key>
+			<real>180</real>
+			<key>Color</key>
+			<string>0.3 1 1</string>
+			<key>Draw Size</key>
+			<string>1 1</string>
+			<key>Texture Dimensions</key>
+			<string>512 512</string>
+			<key>Font Size</key>
+			<real>200</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sticker</string>
+			<key>Message</key>
+			<string>3⃣ </string>
+			<key>Font</key>
+			<string>HelveticaNeue-Italic</string>
+			<key>Position</key>
+			<string>81 3.4 110</string>
+			<key>Wall Sticker</key>
+			<true/>
+			<key>Angle</key>
+			<real>180</real>
+			<key>Color</key>
+			<string>0.3 1 1</string>
+			<key>Draw Size</key>
+			<string>1 1</string>
+			<key>Texture Dimensions</key>
+			<string>512 512</string>
+			<key>Font Size</key>
+			<real>200</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sticker</string>
+			<key>Message</key>
+			<string>4⃣ </string>
+			<key>Font</key>
+			<string>HelveticaNeue-Italic</string>
+			<key>Position</key>
+			<string>94 3.4 112</string>
+			<key>Wall Sticker</key>
+			<true/>
+			<key>Angle</key>
+			<real>90</real>
+			<key>Color</key>
+			<string>0.3 1 1</string>
+			<key>Draw Size</key>
+			<string>1 1</string>
+			<key>Texture Dimensions</key>
+			<string>512 512</string>
+			<key>Font Size</key>
+			<real>200</real>
+		</dict>
+		
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				67 110
+				67 111
+				67 115
+				67 117
+				69 117
+				80 117
+				85 117
+				93 117
+				94 117
+				94 116 here
+				94 113 here
+				94 110
+				85 110 door 3 right
+				82 110 door 3 left
+				74 110 door 2 right
+				71 110 door 2 left
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>Floor Color</key>
+			<string>0.5 0.6 0.6</string>
+			<!-- <key>Walls Color</key>
+			<string>1 0 0</string> -->
+			
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				69 117
+				80 117
+				80 117.5
+				69 117.5
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				85 117
+				93 117
+				93 117.5
+				85 117.5
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>3</real>
+			
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				69 117.5
+				80 117.5
+				80 118.5
+				80.5 118.5
+				84.5 118.5
+				85 118.5
+				85 117.5
+				93 117.5
+				105 117.5
+				105 120 test
+				105 125 test
+				105 130
+				90 130
+				75 122
+				68 122
+				68 117.5
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>Walls Color</key>
+			<string>0.3 0.5 0.2</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				84.5 118.5
+				84.5 118.25
+				80.5 118.25
+				80.5 118.5
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>Walls Color</key>
+			<string>0.3 0.5 0.2</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				85 110 door 3 right
+				82 110 door 3 left
+				82 109
+				85 109
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				74 110 door 2 right
+				71 110 door 2 left
+				71 109
+				74 109
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict> <!-- Room 2 -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				71 109
+				74 109
+				76 109
+				76 108
+				76 106
+				76 102
+				64 102
+				64 109
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict> <!-- Room 2 -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				76 108
+				76 106
+				77 106
+				77 108
+			</string>
+			<key>Ceiling Height</key>
+			<real>3.5</real>
+			<key>Floor Height</key>
+			<real>0.5</real>
+		</dict>
+		<dict> <!-- Room 2 -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				77 106
+				77 108
+				77 109
+				82 109
+				85 109
+				90 109
+				90 102
+				85 102
+				85 105
+				77 105
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict> <!-- Bed 2 -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				85 102
+				85 105
+				77 105
+				77 102
+				82 102
+				84 102
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>3</real>
+		</dict>
+		<dict> <!-- Passagewat 2 -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				82 102 room 2
+				84 102 entry
+				84 101
+				92 101
+				92 102 room 3
+				94 102 entry
+				94 99
+				82 99
+			</string>
+			<key>Ceiling Height</key>
+			<real>7.5</real>
+			<key>Floor Height</key>
+			<real>4.5</real>
+		</dict>
+		<dict> <!-- room 3 bed -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				91 102
+				92 102 room 3
+				94 102 entry
+				95 102
+				95 109
+				91 109
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>3</real>
+		</dict>
+		<dict> <!-- room 3 bed -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				95 102
+				95 109
+				95 113
+				95 116
+				95 117
+				104 117
+				104 102
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict> <!-- room 4 door -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				95 113
+				95 116
+				94 116
+				94 113
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>0</real>
+		</dict>
+		<dict> <!-- room 4 door -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				80.5 97.25
+				80.5 118.25
+				84.5 118.25
+				84.5 97.25
+			</string>
+			<key>Ceiling Height</key>
+			<real>7</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>World</key>
+			<integer>2</integer>
+		</dict>
+		<dict> <!-- room 4 door -->
+			<key>Type</key>
+			<string>Sector</string>
+			<key>Walls</key>
+			<string>
+				105 120 test
+				105 125 test
+				125 125
+				125 120
+			</string>
+			<key>Ceiling Height</key>
+			<real>8</real>
+			<key>Floor Height</key>
+			<real>0</real>
+			<key>World</key>
+			<integer>2</integer>
+		</dict>
+		
+    </array>
+</plist>
